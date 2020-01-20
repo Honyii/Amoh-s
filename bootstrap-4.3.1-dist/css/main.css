@@ -1,0 +1,169 @@
+
+
+
+.nav-link{
+    margin-right:20px;
+    color: white;
+}
+.nav-link:hover{
+    background-color: rgb(236, 55, 55);
+    color: white;
+}
+.navbar-custom{
+    background-color: rgb(231, 31, 31);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navbar-custom .navbar-brand{
+    color: white;
+} 
+
+.navbar-toggler-icon .line{
+    background-color: black
+} 
+.navbar-nav .ml-auto .nav-link{
+    margin-left: 20px;
+}
+
+.jumbotron{
+    text-align: center;
+    padding: 10px;
+    color: red;
+    background-color:rgb(233, 233, 170);
+    font-family: cursive;
+}
+.my-row{
+    
+    /* margin:0 20px; */
+    color: black;
+}
+
+
+.my-row p{
+     margin-top: 30px; 
+     
+    
+}
+
+.the-row{
+    background-color:#eee;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.first-col{
+    margin: 0;
+    padding: 0px;
+}
+
+/* .second-col{
+    margin: 0px;
+    padding: 0px;
+    
+} */
+
+/* .another-col{
+    margin-left: 0;
+    padding: 0px;
+    
+} */
+
+.my-second-row{
+   
+    background-color:rgb(252, 124, 50);
+}
+
+.my-img{
+    height: 450px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.col-sm-12 .my-img{
+    text-align: center;
+    width:600px;
+    /* align-content: center; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fruits{
+    color: red;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+
+.fruits-carousel .img-fluid{
+    height: 200px;
+    width:500px;
+}
+
+.carousel-indicator{
+    display: none;
+    text-decoration: none;
+}
+
+/* footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(images/bootstrap-footer.jpg);
+} */
+
+/* .overlay-div{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(76, 175,80,);
+    opacity: 0.7;
+    
+} */
+
+/* .myfooter{
+    color: white;
+    position: relative;
+    display: flex; */
+    /* opacity: 0.7; 
+}
+
+/* .color-overlay{
+    width: 100%;
+    height: 100%;
+    background:black;
+    opacity: .8;
+    position: absolute;
+} */
+
+.myfooter{
+    
+    color: white;
+    background-color:rgb(231, 36, 36);
+    margin:0;
+    padding: 0;
+    text-align: center;
+   
+}
+
+.footer-container li{
+    list-style: none;
+}
+
+.footer-container a{
+    color: white;
+}
+
+.dropdown-menu a{
+    color: rgb(252, 124, 50);
+    float: left;
+}
+
+
