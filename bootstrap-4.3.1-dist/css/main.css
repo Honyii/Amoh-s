@@ -93,6 +93,8 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    background: #eee;
 }
 
 .fruits{
@@ -150,6 +152,8 @@ body{
     margin:0;
     padding: 0;
     text-align: center;
+    overflow-x: hidden;
+    width: 100%;
    
 }
 
@@ -166,4 +170,191 @@ body{
     float: left;
 }
 
+/* .carousel{
+    overflow-x: hidden;
+} */
 
+.my-recipe{
+    color: black;
+    margin-top: 130px;
+}
+
+.card .img-fluid{
+   
+    height: 350px;
+}
+
+.card{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    
+}
+
+.card:hover{
+    box-shadow: 10px 20px 20px rgb(88, 80, 80);
+}
+
+.card button{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius:10px;
+}
+
+.my-recipe-row{
+    text-align: center;
+}
+
+ 
+.second-recipe-row {
+    margin-top: 20px;
+    
+}
+
+.my-recipe{
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+/* .col-md-6 .third-card{
+    display: inline;
+} */
+
+.my-recipe-row .col-sm-12 .card{
+    margin-top: 15px;
+   
+}
+.second-recipe-row .col-sm-12 .card{
+    margin-top: 15px;
+    
+}
+
+
+    
+.navbar-toggler-icon{
+ background: white; 
+}
+
+.col-md-6 .third{
+    margin: 0 auto;
+   
+}
+
+.sign-in{
+    margin-top: 80px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.my-form{
+    width: 50%;
+    padding: 2%;
+    background:rgb(51, 48, 46);
+    position: absolute;
+    margin-top:50px;
+    border-radius: 15px;
+
+}
+
+input[type=text]{
+    font-size: 10px;
+}
+
+ .sign-button{
+     background:rgb(231, 36, 36) ;
+     color: white;
+     width: 100px;
+     height: 10px;
+     font-size: 15px;
+     border-radius:10px;
+     text-align: center;
+     padding-bottom: 20px;
+ }
+ .text-center{
+    padding-top: 40px;
+ }
+
+
+
+
+
+ .form-group{
+     color:white;
+     font-size: 20px; 
+ }
+
+ .already-reg{
+     color: white;
+     font-size: 18px;
+     text-align: center;
+ }
+ .already-reg a{
+     color:rgb(231, 36, 36)
+ }
+  
+ .sign-in .list-group{
+     /* display: flex; */
+     /* list-style: none; */
+    
+     position: absolute;
+    /* transform: translate(-50%, -50%); */
+     font-size: 20px;
+     /* width: 10%; */
+     margin: 0;
+     padding: 0;
+    
+     
+      
+ }
+ .sign-in ul li a{
+    
+     /* display: block; */
+     margin: 0 20px;;
+ }
+ .sign-in ul li{
+    display: block;
+   
+}
+       /* text-align: center; */
+      
+ 
+
+ .sign-in ul li a .face{
+     background: rgb(26, 26, 82);
+     padding: 10px;
+ color: white;
+ border-radius: 20px;
+ width: 43px;
+ }
+
+ .sign-in ul li a .twi{
+    background:  rgb(43, 43, 138);
+    padding: 10px;
+color: white;
+border-radius: 20px;
+
+ }
+ 
+ .sign-in ul li a .link{
+    background: blue;
+    padding: 10px;
+color: white;
+border-radius: 20px;
+ }
+
+
+ .signup{
+   position: absolute;
+   color: red;
+    left: 25%;
+    padding: 2%;
+  width: 50%;
+   background: green;
+}
+.signup label{
+    color: red;
+}
